@@ -28,7 +28,7 @@ package com.cathive.fonts.fontawesome;
  * <p>Source: https://raw.github.com/FortAwesome/Font-Awesome/v3.2.1/src/icons.yml</p>
  * @author Benjamin P. Jung
  */
-public enum FontAwesomeIcon {
+public final class FontAwesome {
 
     /**
      * Music
@@ -38,7 +38,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MUSIC('\uf001'),
+    public static final char ICON_MUSIC = '\uf001';
 
     /**
      * Search
@@ -48,7 +48,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SEARCH('\uf002'),
+    public static final char ICON_SEARCH = '\uf002';
 
     /**
      * Glass
@@ -58,7 +58,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_GLASS('\uf000'),
+    public static final char ICON_GLASS = '\uf000';
 
     /**
      * Envelope Alt
@@ -68,7 +68,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ENVELOPE_ALT('\uf003'),
+    public static final char ICON_ENVELOPE_ALT = '\uf003';
 
     /**
      * Heart
@@ -78,7 +78,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_HEART('\uf004'),
+    public static final char ICON_HEART = '\uf004';
 
     /**
      * Star
@@ -88,7 +88,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STAR('\uf005'),
+    public static final char ICON_STAR = '\uf005';
 
     /**
      * Star Empty
@@ -98,7 +98,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STAR_EMPTY('\uf006'),
+    public static final char ICON_STAR_EMPTY = '\uf006';
 
     /**
      * User
@@ -108,7 +108,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_USER('\uf007'),
+    public static final char ICON_USER = '\uf007';
 
     /**
      * Film
@@ -118,7 +118,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FILM('\uf008'),
+    public static final char ICON_FILM = '\uf008';
 
     /**
      * th-large
@@ -128,7 +128,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TH_LARGE('\uf009'),
+    public static final char ICON_TH_LARGE = '\uf009';
 
     /**
      * th
@@ -138,7 +138,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TH('\uf00a'),
+    public static final char ICON_TH = '\uf00a';
 
     /**
      * th-list
@@ -148,7 +148,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TH_LIST('\uf00b'),
+    public static final char ICON_TH_LIST = '\uf00b';
 
     /**
      * OK
@@ -158,7 +158,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_OK('\uf00c'),
+    public static final char ICON_OK = '\uf00c';
 
     /**
      * Remove
@@ -168,7 +168,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_REMOVE('\uf00d'),
+    public static final char ICON_REMOVE = '\uf00d';
 
     /**
      * Zoom In
@@ -178,7 +178,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ZOOM_IN('\uf00e'),
+    public static final char ICON_ZOOM_IN = '\uf00e';
 
     /**
      * Zoom Out
@@ -188,7 +188,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ZOOM_OUT('\uf010'),
+    public static final char ICON_ZOOM_OUT = '\uf010';
 
     /**
      * Off
@@ -202,7 +202,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_OFF('\uf011'),
+    public static final char ICON_OFF = '\uf011';
 
     /**
      * signal
@@ -212,7 +212,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SIGNAL('\uf012'),
+    public static final char ICON_SIGNAL = '\uf012';
 
     /**
      * cog
@@ -226,7 +226,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_COG('\uf013'),
+    public static final char ICON_COG = '\uf013';
 
     /**
      * trash
@@ -236,7 +236,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TRASH('\uf014'),
+    public static final char ICON_TRASH = '\uf014';
 
     /**
      * home
@@ -246,7 +246,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_HOME('\uf015'),
+    public static final char ICON_HOME = '\uf015';
 
     /**
      * file-alt
@@ -256,7 +256,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FILE_ALT('\uf016'),
+    public static final char ICON_FILE_ALT = '\uf016';
 
     /**
      * time
@@ -266,7 +266,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TIME('\uf017'),
+    public static final char ICON_TIME = '\uf017';
 
     /**
      * road
@@ -276,7 +276,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ROAD('\uf018'),
+    public static final char ICON_ROAD = '\uf018';
 
     /**
      * download-alt
@@ -286,7 +286,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_DOWNLOAD_ALT('\uf019'),
+    public static final char ICON_DOWNLOAD_ALT = '\uf019';
 
     /**
      * download
@@ -296,7 +296,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_DOWNLOAD('\uf01a'),
+    public static final char ICON_DOWNLOAD = '\uf01a';
 
     /**
      * upload
@@ -306,7 +306,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_UPLOAD('\uf01b'),
+    public static final char ICON_UPLOAD = '\uf01b';
 
     /**
      * inbox
@@ -316,7 +316,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_INBOX('\uf01c'),
+    public static final char ICON_INBOX = '\uf01c';
 
     /**
      * play-circle
@@ -326,7 +326,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PLAY_CIRCLE('\uf01d'),
+    public static final char ICON_PLAY_CIRCLE = '\uf01d';
 
     /**
      * repeat
@@ -340,7 +340,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_REPEAT('\uf01e'),
+    public static final char ICON_REPEAT = '\uf01e';
 
     /**
      * refresh
@@ -350,7 +350,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_REFRESH('\uf021'),
+    public static final char ICON_REFRESH = '\uf021';
 
     /**
      * list-alt
@@ -360,7 +360,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LIST_ALT('\uf022'),
+    public static final char ICON_LIST_ALT = '\uf022';
 
     /**
      * lock
@@ -370,7 +370,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LOCK('\uf023'),
+    public static final char ICON_LOCK = '\uf023';
 
     /**
      * flag
@@ -380,7 +380,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FLAG('\uf024'),
+    public static final char ICON_FLAG = '\uf024';
 
     /**
      * headphones
@@ -390,7 +390,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_HEADPHONES('\uf025'),
+    public static final char ICON_HEADPHONES = '\uf025';
 
     /**
      * volume-off
@@ -400,7 +400,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_VOLUME_OFF('\uf026'),
+    public static final char ICON_VOLUME_OFF = '\uf026';
 
     /**
      * volume-down
@@ -410,7 +410,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_VOLUME_DOWN('\uf027'),
+    public static final char ICON_VOLUME_DOWN = '\uf027';
 
     /**
      * volume-up
@@ -420,7 +420,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_VOLUME_UP('\uf028'),
+    public static final char ICON_VOLUME_UP = '\uf028';
 
     /**
      * qrcode
@@ -430,7 +430,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_QRCODE('\uf029'),
+    public static final char ICON_QRCODE = '\uf029';
 
     /**
      * barcode
@@ -440,7 +440,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BARCODE('\uf02a'),
+    public static final char ICON_BARCODE = '\uf02a';
 
     /**
      * tag
@@ -450,7 +450,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TAG('\uf02b'),
+    public static final char ICON_TAG = '\uf02b';
 
     /**
      * tags
@@ -460,7 +460,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TAGS('\uf02c'),
+    public static final char ICON_TAGS = '\uf02c';
 
     /**
      * book
@@ -470,7 +470,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BOOK('\uf02d'),
+    public static final char ICON_BOOK = '\uf02d';
 
     /**
      * bookmark
@@ -480,7 +480,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BOOKMARK('\uf02e'),
+    public static final char ICON_BOOKMARK = '\uf02e';
 
     /**
      * print
@@ -490,7 +490,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PRINT('\uf02f'),
+    public static final char ICON_PRINT = '\uf02f';
 
     /**
      * camera
@@ -500,7 +500,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CAMERA('\uf030'),
+    public static final char ICON_CAMERA = '\uf030';
 
     /**
      * font
@@ -510,7 +510,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FONT('\uf031'),
+    public static final char ICON_FONT = '\uf031';
 
     /**
      * bold
@@ -520,7 +520,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BOLD('\uf032'),
+    public static final char ICON_BOLD = '\uf032';
 
     /**
      * italic
@@ -530,7 +530,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ITALIC('\uf033'),
+    public static final char ICON_ITALIC = '\uf033';
 
     /**
      * text-height
@@ -540,7 +540,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TEXT_HEIGHT('\uf034'),
+    public static final char ICON_TEXT_HEIGHT = '\uf034';
 
     /**
      * text-width
@@ -550,7 +550,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TEXT_WIDTH('\uf035'),
+    public static final char ICON_TEXT_WIDTH = '\uf035';
 
     /**
      * align-left
@@ -560,7 +560,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ALIGN_LEFT('\uf036'),
+    public static final char ICON_ALIGN_LEFT = '\uf036';
 
     /**
      * align-center
@@ -570,7 +570,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ALIGN_CENTER('\uf037'),
+    public static final char ICON_ALIGN_CENTER = '\uf037';
 
     /**
      * align-right
@@ -580,7 +580,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ALIGN_RIGHT('\uf038'),
+    public static final char ICON_ALIGN_RIGHT = '\uf038';
 
     /**
      * align-justify
@@ -590,7 +590,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ALIGN_JUSTIFY('\uf039'),
+    public static final char ICON_ALIGN_JUSTIFY = '\uf039';
 
     /**
      * list
@@ -600,7 +600,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LIST('\uf03a'),
+    public static final char ICON_LIST = '\uf03a';
 
     /**
      * indent-left
@@ -610,7 +610,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_INDENT_LEFT('\uf03b'),
+    public static final char ICON_INDENT_LEFT = '\uf03b';
 
     /**
      * indent-right
@@ -620,7 +620,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_INDENT_RIGHT('\uf03c'),
+    public static final char ICON_INDENT_RIGHT = '\uf03c';
 
     /**
      * facetime-video
@@ -630,7 +630,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FACETIME_VIDEO('\uf03d'),
+    public static final char ICON_FACETIME_VIDEO = '\uf03d';
 
     /**
      * picture
@@ -640,7 +640,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PICTURE('\uf03e'),
+    public static final char ICON_PICTURE = '\uf03e';
 
     /**
      * pencil
@@ -650,7 +650,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PENCIL('\uf040'),
+    public static final char ICON_PENCIL = '\uf040';
 
     /**
      * map-marker
@@ -660,7 +660,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MAP_MARKER('\uf041'),
+    public static final char ICON_MAP_MARKER = '\uf041';
 
     /**
      * adjust
@@ -670,7 +670,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ADJUST('\uf042'),
+    public static final char ICON_ADJUST = '\uf042';
 
     /**
      * tint
@@ -680,7 +680,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TINT('\uf043'),
+    public static final char ICON_TINT = '\uf043';
 
     /**
      * edit
@@ -690,7 +690,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EDIT('\uf044'),
+    public static final char ICON_EDIT = '\uf044';
 
     /**
      * share
@@ -700,7 +700,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SHARE('\uf045'),
+    public static final char ICON_SHARE = '\uf045';
 
     /**
      * check
@@ -710,7 +710,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CHECK('\uf046'),
+    public static final char ICON_CHECK = '\uf046';
 
     /**
      * move
@@ -720,7 +720,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MOVE('\uf047'),
+    public static final char ICON_MOVE = '\uf047';
 
     /**
      * step-backward
@@ -730,7 +730,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STEP_BACKWARD('\uf048'),
+    public static final char ICON_STEP_BACKWARD = '\uf048';
 
     /**
      * fast-backward
@@ -740,7 +740,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FAST_BACKWARD('\uf049'),
+    public static final char ICON_FAST_BACKWARD = '\uf049';
 
     /**
      * backward
@@ -750,7 +750,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BACKWARD('\uf04a'),
+    public static final char ICON_BACKWARD = '\uf04a';
 
     /**
      * play
@@ -760,7 +760,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PLAY('\uf04b'),
+    public static final char ICON_PLAY = '\uf04b';
 
     /**
      * pause
@@ -770,7 +770,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PAUSE('\uf04c'),
+    public static final char ICON_PAUSE = '\uf04c';
 
     /**
      * stop
@@ -780,7 +780,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STOP('\uf04d'),
+    public static final char ICON_STOP = '\uf04d';
 
     /**
      * forward
@@ -790,7 +790,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FORWARD('\uf04e'),
+    public static final char ICON_FORWARD = '\uf04e';
 
     /**
      * fast-forward
@@ -800,7 +800,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FAST_FORWARD('\uf050'),
+    public static final char ICON_FAST_FORWARD = '\uf050';
 
     /**
      * step-forward
@@ -810,7 +810,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STEP_FORWARD('\uf051'),
+    public static final char ICON_STEP_FORWARD = '\uf051';
 
     /**
      * eject
@@ -820,7 +820,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EJECT('\uf052'),
+    public static final char ICON_EJECT = '\uf052';
 
     /**
      * chevron-left
@@ -830,7 +830,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CHEVRON_LEFT('\uf053'),
+    public static final char ICON_CHEVRON_LEFT = '\uf053';
 
     /**
      * chevron-right
@@ -840,7 +840,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CHEVRON_RIGHT('\uf054'),
+    public static final char ICON_CHEVRON_RIGHT = '\uf054';
 
     /**
      * plus-sign
@@ -850,7 +850,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PLUS_SIGN('\uf055'),
+    public static final char ICON_PLUS_SIGN = '\uf055';
 
     /**
      * minus-sign
@@ -860,7 +860,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MINUS_SIGN('\uf056'),
+    public static final char ICON_MINUS_SIGN = '\uf056';
 
     /**
      * remove-sign
@@ -870,7 +870,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_REMOVE_SIGN('\uf057'),
+    public static final char ICON_REMOVE_SIGN = '\uf057';
 
     /**
      * ok-sign
@@ -880,7 +880,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_OK_SIGN('\uf058'),
+    public static final char ICON_OK_SIGN = '\uf058';
 
     /**
      * question-sign
@@ -890,7 +890,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_QUESTION_SIGN('\uf059'),
+    public static final char ICON_QUESTION_SIGN = '\uf059';
 
     /**
      * info-sign
@@ -900,7 +900,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_INFO_SIGN('\uf05a'),
+    public static final char ICON_INFO_SIGN = '\uf05a';
 
     /**
      * screenshot
@@ -910,7 +910,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SCREENSHOT('\uf05b'),
+    public static final char ICON_SCREENSHOT = '\uf05b';
 
     /**
      * remove-circle
@@ -920,7 +920,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_REMOVE_CIRCLE('\uf05c'),
+    public static final char ICON_REMOVE_CIRCLE = '\uf05c';
 
     /**
      * ok-circle
@@ -930,7 +930,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_OK_CIRCLE('\uf05d'),
+    public static final char ICON_OK_CIRCLE = '\uf05d';
 
     /**
      * ban-circle
@@ -940,7 +940,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BAN_CIRCLE('\uf05e'),
+    public static final char ICON_BAN_CIRCLE = '\uf05e';
 
     /**
      * arrow-left
@@ -950,7 +950,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ARROW_LEFT('\uf060'),
+    public static final char ICON_ARROW_LEFT = '\uf060';
 
     /**
      * arrow-right
@@ -960,7 +960,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ARROW_RIGHT('\uf061'),
+    public static final char ICON_ARROW_RIGHT = '\uf061';
 
     /**
      * arrow-up
@@ -970,7 +970,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ARROW_UP('\uf062'),
+    public static final char ICON_ARROW_UP = '\uf062';
 
     /**
      * arrow-down
@@ -980,7 +980,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ARROW_DOWN('\uf063'),
+    public static final char ICON_ARROW_DOWN = '\uf063';
 
     /**
      * share-alt
@@ -994,7 +994,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SHARE_ALT('\uf064'),
+    public static final char ICON_SHARE_ALT = '\uf064';
 
     /**
      * resize-full
@@ -1004,7 +1004,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RESIZE_FULL('\uf065'),
+    public static final char ICON_RESIZE_FULL = '\uf065';
 
     /**
      * resize-small
@@ -1014,7 +1014,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RESIZE_SMALL('\uf066'),
+    public static final char ICON_RESIZE_SMALL = '\uf066';
 
     /**
      * plus
@@ -1024,7 +1024,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PLUS('\uf067'),
+    public static final char ICON_PLUS = '\uf067';
 
     /**
      * minus
@@ -1034,7 +1034,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MINUS('\uf068'),
+    public static final char ICON_MINUS = '\uf068';
 
     /**
      * asterisk
@@ -1044,7 +1044,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_ASTERISK('\uf069'),
+    public static final char ICON_ASTERISK = '\uf069';
 
     /**
      * exclamation-sign
@@ -1054,7 +1054,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EXCLAMATION_SIGN('\uf06a'),
+    public static final char ICON_EXCLAMATION_SIGN = '\uf06a';
 
     /**
      * gift
@@ -1064,7 +1064,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_GIFT('\uf06b'),
+    public static final char ICON_GIFT = '\uf06b';
 
     /**
      * leaf
@@ -1074,7 +1074,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LEAF('\uf06c'),
+    public static final char ICON_LEAF = '\uf06c';
 
     /**
      * fire
@@ -1084,7 +1084,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FIRE('\uf06d'),
+    public static final char ICON_FIRE = '\uf06d';
 
     /**
      * eye-open
@@ -1094,7 +1094,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EYE_OPEN('\uf06e'),
+    public static final char ICON_EYE_OPEN = '\uf06e';
 
     /**
      * eye-close
@@ -1104,7 +1104,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EYE_CLOSE('\uf070'),
+    public static final char ICON_EYE_CLOSE = '\uf070';
 
     /**
      * warning-sign
@@ -1114,7 +1114,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_WARNING_SIGN('\uf071'),
+    public static final char ICON_WARNING_SIGN = '\uf071';
 
     /**
      * plane
@@ -1124,7 +1124,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PLANE('\uf072'),
+    public static final char ICON_PLANE = '\uf072';
 
     /**
      * calendar
@@ -1134,7 +1134,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CALENDAR('\uf073'),
+    public static final char ICON_CALENDAR = '\uf073';
 
     /**
      * random
@@ -1144,7 +1144,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RANDOM('\uf074'),
+    public static final char ICON_RANDOM = '\uf074';
 
     /**
      * comment
@@ -1154,7 +1154,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_COMMENT('\uf075'),
+    public static final char ICON_COMMENT = '\uf075';
 
     /**
      * magnet
@@ -1164,7 +1164,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_MAGNET('\uf076'),
+    public static final char ICON_MAGNET = '\uf076';
 
     /**
      * chevron-up
@@ -1174,7 +1174,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CHEVRON_UP('\uf077'),
+    public static final char ICON_CHEVRON_UP = '\uf077';
 
     /**
      * chevron-down
@@ -1184,7 +1184,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CHEVRON_DOWN('\uf078'),
+    public static final char ICON_CHEVRON_DOWN = '\uf078';
 
     /**
      * retweet
@@ -1194,7 +1194,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RETWEET('\uf079'),
+    public static final char ICON_RETWEET = '\uf079';
 
     /**
      * shopping-cart
@@ -1204,7 +1204,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SHOPPING_CART('\uf07a'),
+    public static final char ICON_SHOPPING_CART = '\uf07a';
 
     /**
      * folder-close
@@ -1214,7 +1214,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FOLDER_CLOSE('\uf07b'),
+    public static final char ICON_FOLDER_CLOSE = '\uf07b';
 
     /**
      * folder-open
@@ -1224,7 +1224,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FOLDER_OPEN('\uf07c'),
+    public static final char ICON_FOLDER_OPEN = '\uf07c';
 
     /**
      * resize-vertical
@@ -1234,7 +1234,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RESIZE_VERTICAL('\uf07d'),
+    public static final char ICON_RESIZE_VERTICAL = '\uf07d';
 
     /**
      * resize-horizontal
@@ -1244,7 +1244,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_RESIZE_HORIZONTAL('\uf07e'),
+    public static final char ICON_RESIZE_HORIZONTAL = '\uf07e';
 
     /**
      * bar-chart
@@ -1254,7 +1254,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_BAR_CHART('\uf080'),
+    public static final char ICON_BAR_CHART = '\uf080';
 
     /**
      * twitter-sign
@@ -1264,7 +1264,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TWITTER_SIGN('\uf081'),
+    public static final char ICON_TWITTER_SIGN = '\uf081';
 
     /**
      * facebook-sign
@@ -1274,7 +1274,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_FACEBOOK_SIGN('\uf082'),
+    public static final char ICON_FACEBOOK_SIGN = '\uf082';
 
     /**
      * camera-retro
@@ -1284,7 +1284,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_CAMERA_RETRO('\uf083'),
+    public static final char ICON_CAMERA_RETRO = '\uf083';
 
     /**
      * key
@@ -1294,7 +1294,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_KEY('\uf084'),
+    public static final char ICON_KEY = '\uf084';
 
     /**
      * cogs
@@ -1308,7 +1308,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_COGS('\uf085'),
+    public static final char ICON_COGS = '\uf085';
 
     /**
      * comments
@@ -1318,7 +1318,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_COMMENTS('\uf086'),
+    public static final char ICON_COMMENTS = '\uf086';
 
     /**
      * thumbs-up-alt
@@ -1328,7 +1328,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_THUMBS_UP_ALT('\uf087'),
+    public static final char ICON_THUMBS_UP_ALT = '\uf087';
 
     /**
      * thumbs-down-alt
@@ -1338,7 +1338,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_THUMBS_DOWN_ALT('\uf088'),
+    public static final char ICON_THUMBS_DOWN_ALT = '\uf088';
 
     /**
      * star-half
@@ -1348,7 +1348,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_STAR_HALF('\uf089'),
+    public static final char ICON_STAR_HALF = '\uf089';
 
     /**
      * heart-empty
@@ -1358,7 +1358,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_HEART_EMPTY('\uf08a'),
+    public static final char ICON_HEART_EMPTY = '\uf08a';
 
     /**
      * signout
@@ -1368,7 +1368,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SIGNOUT('\uf08b'),
+    public static final char ICON_SIGNOUT = '\uf08b';
 
     /**
      * linkedin-sign
@@ -1378,7 +1378,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LINKEDIN_SIGN('\uf08c'),
+    public static final char ICON_LINKEDIN_SIGN = '\uf08c';
 
     /**
      * pushpin
@@ -1388,7 +1388,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_PUSHPIN('\uf08d'),
+    public static final char ICON_PUSHPIN = '\uf08d';
 
     /**
      * external-link
@@ -1398,7 +1398,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_EXTERNAL_LINK('\uf08e'),
+    public static final char ICON_EXTERNAL_LINK = '\uf08e';
 
     /**
      * signin
@@ -1408,7 +1408,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_SIGNIN('\uf090'),
+    public static final char ICON_SIGNIN = '\uf090';
 
     /**
      * trophy
@@ -1418,7 +1418,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_TROPHY('\uf091'),
+    public static final char ICON_TROPHY = '\uf091';
 
     /**
      * github-sign
@@ -1428,7 +1428,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_GITHUB_SIGN('\uf092'),
+    public static final char ICON_GITHUB_SIGN = '\uf092';
 
     /**
      * upload-alt
@@ -1438,7 +1438,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_UPLOAD_ALT('\uf093'),
+    public static final char ICON_UPLOAD_ALT = '\uf093';
 
     /**
      * lemon
@@ -1448,7 +1448,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 1.0
      */
-    ICON_LEMON('\uf094'),
+    public static final char ICON_LEMON = '\uf094';
 
     /**
      * phone
@@ -1458,7 +1458,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PHONE('\uf095'),
+    public static final char ICON_PHONE = '\uf095';
 
     /**
      * check-empty
@@ -1472,7 +1472,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CHECK_EMPTY('\uf096'),
+    public static final char ICON_CHECK_EMPTY = '\uf096';
 
     /**
      * bookmark-empty
@@ -1482,7 +1482,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BOOKMARK_EMPTY('\uf097'),
+    public static final char ICON_BOOKMARK_EMPTY = '\uf097';
 
     /**
      * phone-sign
@@ -1492,7 +1492,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PHONE_SIGN('\uf098'),
+    public static final char ICON_PHONE_SIGN = '\uf098';
 
     /**
      * twitter
@@ -1502,7 +1502,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_TWITTER('\uf099'),
+    public static final char ICON_TWITTER = '\uf099';
 
     /**
      * facebook
@@ -1512,7 +1512,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_FACEBOOK('\uf09a'),
+    public static final char ICON_FACEBOOK = '\uf09a';
 
     /**
      * github
@@ -1522,7 +1522,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_GITHUB('\uf09b'),
+    public static final char ICON_GITHUB = '\uf09b';
 
     /**
      * unlock
@@ -1532,7 +1532,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_UNLOCK('\uf09c'),
+    public static final char ICON_UNLOCK = '\uf09c';
 
     /**
      * credit-card
@@ -1542,7 +1542,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CREDIT_CARD('\uf09d'),
+    public static final char ICON_CREDIT_CARD = '\uf09d';
 
     /**
      * rss
@@ -1552,7 +1552,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_RSS('\uf09e'),
+    public static final char ICON_RSS = '\uf09e';
 
     /**
      * hdd
@@ -1562,7 +1562,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_HDD('\uf0a0'),
+    public static final char ICON_HDD = '\uf0a0';
 
     /**
      * bullhorn
@@ -1572,7 +1572,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BULLHORN('\uf0a1'),
+    public static final char ICON_BULLHORN = '\uf0a1';
 
     /**
      * bell
@@ -1582,7 +1582,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BELL('\uf0a2'),
+    public static final char ICON_BELL = '\uf0a2';
 
     /**
      * certificate
@@ -1592,7 +1592,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CERTIFICATE('\uf0a3'),
+    public static final char ICON_CERTIFICATE = '\uf0a3';
 
     /**
      * hand-right
@@ -1602,7 +1602,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_HAND_RIGHT('\uf0a4'),
+    public static final char ICON_HAND_RIGHT = '\uf0a4';
 
     /**
      * hand-left
@@ -1612,7 +1612,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_HAND_LEFT('\uf0a5'),
+    public static final char ICON_HAND_LEFT = '\uf0a5';
 
     /**
      * hand-up
@@ -1622,7 +1622,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_HAND_UP('\uf0a6'),
+    public static final char ICON_HAND_UP = '\uf0a6';
 
     /**
      * hand-down
@@ -1632,7 +1632,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_HAND_DOWN('\uf0a7'),
+    public static final char ICON_HAND_DOWN = '\uf0a7';
 
     /**
      * circle-arrow-left
@@ -1642,7 +1642,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CIRCLE_ARROW_LEFT('\uf0a8'),
+    public static final char ICON_CIRCLE_ARROW_LEFT = '\uf0a8';
 
     /**
      * circle-arrow-right
@@ -1652,7 +1652,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CIRCLE_ARROW_RIGHT('\uf0a9'),
+    public static final char ICON_CIRCLE_ARROW_RIGHT = '\uf0a9';
 
     /**
      * circle-arrow-up
@@ -1662,7 +1662,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CIRCLE_ARROW_UP('\uf0aa'),
+    public static final char ICON_CIRCLE_ARROW_UP = '\uf0aa';
 
     /**
      * circle-arrow-down
@@ -1672,7 +1672,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CIRCLE_ARROW_DOWN('\uf0ab'),
+    public static final char ICON_CIRCLE_ARROW_DOWN = '\uf0ab';
 
     /**
      * globe
@@ -1682,7 +1682,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_GLOBE('\uf0ac'),
+    public static final char ICON_GLOBE = '\uf0ac';
 
     /**
      * wrench
@@ -1692,7 +1692,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_WRENCH('\uf0ad'),
+    public static final char ICON_WRENCH = '\uf0ad';
 
     /**
      * tasks
@@ -1702,7 +1702,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_TASKS('\uf0ae'),
+    public static final char ICON_TASKS = '\uf0ae';
 
     /**
      * filter
@@ -1712,7 +1712,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_FILTER('\uf0b0'),
+    public static final char ICON_FILTER = '\uf0b0';
 
     /**
      * briefcase
@@ -1722,7 +1722,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BRIEFCASE('\uf0b1'),
+    public static final char ICON_BRIEFCASE = '\uf0b1';
 
     /**
      * fullscreen
@@ -1732,7 +1732,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_FULLSCREEN('\uf0b2'),
+    public static final char ICON_FULLSCREEN = '\uf0b2';
 
     /**
      * group
@@ -1742,7 +1742,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_GROUP('\uf0c0'),
+    public static final char ICON_GROUP = '\uf0c0';
 
     /**
      * link
@@ -1752,7 +1752,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_LINK('\uf0c1'),
+    public static final char ICON_LINK = '\uf0c1';
 
     /**
      * cloud
@@ -1762,7 +1762,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CLOUD('\uf0c2'),
+    public static final char ICON_CLOUD = '\uf0c2';
 
     /**
      * beaker
@@ -1772,7 +1772,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BEAKER('\uf0c3'),
+    public static final char ICON_BEAKER = '\uf0c3';
 
     /**
      * cut
@@ -1782,7 +1782,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CUT('\uf0c4'),
+    public static final char ICON_CUT = '\uf0c4';
 
     /**
      * copy
@@ -1792,7 +1792,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_COPY('\uf0c5'),
+    public static final char ICON_COPY = '\uf0c5';
 
     /**
      * paper-clip
@@ -1806,7 +1806,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PAPER_CLIP('\uf0c6'),
+    public static final char ICON_PAPER_CLIP = '\uf0c6';
 
     /**
      * save
@@ -1816,7 +1816,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SAVE('\uf0c7'),
+    public static final char ICON_SAVE = '\uf0c7';
 
     /**
      * sign-blank
@@ -1826,7 +1826,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SIGN_BLANK('\uf0c8'),
+    public static final char ICON_SIGN_BLANK = '\uf0c8';
 
     /**
      * reorder
@@ -1836,7 +1836,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_REORDER('\uf0c9'),
+    public static final char ICON_REORDER = '\uf0c9';
 
     /**
      * list-ul
@@ -1846,7 +1846,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_LIST_UL('\uf0ca'),
+    public static final char ICON_LIST_UL = '\uf0ca';
 
     /**
      * list-ol
@@ -1856,7 +1856,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_LIST_OL('\uf0cb'),
+    public static final char ICON_LIST_OL = '\uf0cb';
 
     /**
      * strikethrough
@@ -1866,7 +1866,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_STRIKETHROUGH('\uf0cc'),
+    public static final char ICON_STRIKETHROUGH = '\uf0cc';
 
     /**
      * underline
@@ -1876,7 +1876,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_UNDERLINE('\uf0cd'),
+    public static final char ICON_UNDERLINE = '\uf0cd';
 
     /**
      * table
@@ -1886,7 +1886,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_TABLE('\uf0ce'),
+    public static final char ICON_TABLE = '\uf0ce';
 
     /**
      * magic
@@ -1896,7 +1896,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_MAGIC('\uf0d0'),
+    public static final char ICON_MAGIC = '\uf0d0';
 
     /**
      * truck
@@ -1906,7 +1906,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_TRUCK('\uf0d1'),
+    public static final char ICON_TRUCK = '\uf0d1';
 
     /**
      * pinterest
@@ -1916,7 +1916,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PINTEREST('\uf0d2'),
+    public static final char ICON_PINTEREST = '\uf0d2';
 
     /**
      * pinterest-sign
@@ -1926,7 +1926,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PINTEREST_SIGN('\uf0d3'),
+    public static final char ICON_PINTEREST_SIGN = '\uf0d3';
 
     /**
      * google-plus-sign
@@ -1936,7 +1936,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_GOOGLE_PLUS_SIGN('\uf0d4'),
+    public static final char ICON_GOOGLE_PLUS_SIGN = '\uf0d4';
 
     /**
      * google-plus
@@ -1946,7 +1946,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_GOOGLE_PLUS('\uf0d5'),
+    public static final char ICON_GOOGLE_PLUS = '\uf0d5';
 
     /**
      * money
@@ -1956,7 +1956,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_MONEY('\uf0d6'),
+    public static final char ICON_MONEY = '\uf0d6';
 
     /**
      * caret-down
@@ -1966,7 +1966,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CARET_DOWN('\uf0d7'),
+    public static final char ICON_CARET_DOWN = '\uf0d7';
 
     /**
      * caret-up
@@ -1976,7 +1976,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CARET_UP('\uf0d8'),
+    public static final char ICON_CARET_UP = '\uf0d8';
 
     /**
      * caret-left
@@ -1986,7 +1986,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CARET_LEFT('\uf0d9'),
+    public static final char ICON_CARET_LEFT = '\uf0d9';
 
     /**
      * caret-right
@@ -1996,7 +1996,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_CARET_RIGHT('\uf0da'),
+    public static final char ICON_CARET_RIGHT = '\uf0da';
 
     /**
      * columns
@@ -2006,7 +2006,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_COLUMNS('\uf0db'),
+    public static final char ICON_COLUMNS = '\uf0db';
 
     /**
      * sort
@@ -2016,7 +2016,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SORT('\uf0dc'),
+    public static final char ICON_SORT = '\uf0dc';
 
     /**
      * sort-down
@@ -2026,7 +2026,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SORT_DOWN('\uf0dd'),
+    public static final char ICON_SORT_DOWN = '\uf0dd';
 
     /**
      * sort-up
@@ -2036,7 +2036,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SORT_UP('\uf0de'),
+    public static final char ICON_SORT_UP = '\uf0de';
 
     /**
      * Envelope
@@ -2046,7 +2046,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_ENVELOPE('\uf0e0'),
+    public static final char ICON_ENVELOPE = '\uf0e0';
 
     /**
      * linkedin
@@ -2056,7 +2056,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_LINKEDIN('\uf0e1'),
+    public static final char ICON_LINKEDIN = '\uf0e1';
 
     /**
      * undo
@@ -2070,7 +2070,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_UNDO('\uf0e2'),
+    public static final char ICON_UNDO = '\uf0e2';
 
     /**
      * legal
@@ -2080,7 +2080,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_LEGAL('\uf0e3'),
+    public static final char ICON_LEGAL = '\uf0e3';
 
     /**
      * dashboard
@@ -2090,7 +2090,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_DASHBOARD('\uf0e4'),
+    public static final char ICON_DASHBOARD = '\uf0e4';
 
     /**
      * comment-alt
@@ -2100,7 +2100,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_COMMENT_ALT('\uf0e5'),
+    public static final char ICON_COMMENT_ALT = '\uf0e5';
 
     /**
      * comments-alt
@@ -2110,7 +2110,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_COMMENTS_ALT('\uf0e6'),
+    public static final char ICON_COMMENTS_ALT = '\uf0e6';
 
     /**
      * bolt
@@ -2120,7 +2120,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_BOLT('\uf0e7'),
+    public static final char ICON_BOLT = '\uf0e7';
 
     /**
      * sitemap
@@ -2130,7 +2130,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_SITEMAP('\uf0e8'),
+    public static final char ICON_SITEMAP = '\uf0e8';
 
     /**
      * umbrella
@@ -2140,7 +2140,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_UMBRELLA('\uf0e9'),
+    public static final char ICON_UMBRELLA = '\uf0e9';
 
     /**
      * paste
@@ -2150,7 +2150,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_PASTE('\uf0ea'),
+    public static final char ICON_PASTE = '\uf0ea';
 
     /**
      * lightbulb
@@ -2160,7 +2160,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_LIGHTBULB('\uf0eb'),
+    public static final char ICON_LIGHTBULB = '\uf0eb';
 
     /**
      * exchange
@@ -2170,7 +2170,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_EXCHANGE('\uf0ec'),
+    public static final char ICON_EXCHANGE = '\uf0ec';
 
     /**
      * cloud-download
@@ -2180,7 +2180,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_CLOUD_DOWNLOAD('\uf0ed'),
+    public static final char ICON_CLOUD_DOWNLOAD = '\uf0ed';
 
     /**
      * cloud-upload
@@ -2190,7 +2190,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_CLOUD_UPLOAD('\uf0ee'),
+    public static final char ICON_CLOUD_UPLOAD = '\uf0ee';
 
     /**
      * user-md
@@ -2200,7 +2200,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 2.0
      */
-    ICON_USER_MD('\uf0f0'),
+    public static final char ICON_USER_MD = '\uf0f0';
 
     /**
      * stethoscope
@@ -2210,7 +2210,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_STETHOSCOPE('\uf0f1'),
+    public static final char ICON_STETHOSCOPE = '\uf0f1';
 
     /**
      * suitcase
@@ -2220,7 +2220,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_SUITCASE('\uf0f2'),
+    public static final char ICON_SUITCASE = '\uf0f2';
 
     /**
      * bell-alt
@@ -2230,7 +2230,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_BELL_ALT('\uf0f3'),
+    public static final char ICON_BELL_ALT = '\uf0f3';
 
     /**
      * coffee
@@ -2240,7 +2240,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_COFFEE('\uf0f4'),
+    public static final char ICON_COFFEE = '\uf0f4';
 
     /**
      * food
@@ -2250,7 +2250,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_FOOD('\uf0f5'),
+    public static final char ICON_FOOD = '\uf0f5';
 
     /**
      * file-text-alt
@@ -2260,7 +2260,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_FILE_TEXT_ALT('\uf0f6'),
+    public static final char ICON_FILE_TEXT_ALT = '\uf0f6';
 
     /**
      * building
@@ -2270,7 +2270,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_BUILDING('\uf0f7'),
+    public static final char ICON_BUILDING = '\uf0f7';
 
     /**
      * hospital
@@ -2280,7 +2280,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_HOSPITAL('\uf0f8'),
+    public static final char ICON_HOSPITAL = '\uf0f8';
 
     /**
      * ambulance
@@ -2290,7 +2290,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_AMBULANCE('\uf0f9'),
+    public static final char ICON_AMBULANCE = '\uf0f9';
 
     /**
      * medkit
@@ -2300,7 +2300,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_MEDKIT('\uf0fa'),
+    public static final char ICON_MEDKIT = '\uf0fa';
 
     /**
      * fighter-jet
@@ -2310,7 +2310,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_FIGHTER_JET('\uf0fb'),
+    public static final char ICON_FIGHTER_JET = '\uf0fb';
 
     /**
      * beer
@@ -2320,7 +2320,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_BEER('\uf0fc'),
+    public static final char ICON_BEER = '\uf0fc';
 
     /**
      * h-sign
@@ -2330,7 +2330,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_H_SIGN('\uf0fd'),
+    public static final char ICON_H_SIGN = '\uf0fd';
 
     /**
      * plus-sign-alt
@@ -2341,7 +2341,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_PLUS_SIGN_ALT('\uf0fe'),
+    public static final char ICON_PLUS_SIGN_ALT = '\uf0fe';
 
     /**
      * double-angle-left
@@ -2351,7 +2351,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_DOUBLE_ANGLE_LEFT('\uf100'),
+    public static final char ICON_DOUBLE_ANGLE_LEFT = '\uf100';
 
     /**
      * double-angle-right
@@ -2361,7 +2361,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_DOUBLE_ANGLE_RIGHT('\uf101'),
+    public static final char ICON_DOUBLE_ANGLE_RIGHT = '\uf101';
 
     /**
      * double-angle-up
@@ -2371,7 +2371,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_DOUBLE_ANGLE_UP('\uf102'),
+    public static final char ICON_DOUBLE_ANGLE_UP = '\uf102';
 
     /**
      * double-angle-down
@@ -2381,7 +2381,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_DOUBLE_ANGLE_DOWN('\uf103'),
+    public static final char ICON_DOUBLE_ANGLE_DOWN = '\uf103';
 
     /**
      * angle-left
@@ -2391,7 +2391,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_ANGLE_LEFT('\uf104'),
+    public static final char ICON_ANGLE_LEFT = '\uf104';
 
     /**
      * angle-right
@@ -2401,7 +2401,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_ANGLE_RIGHT('\uf105'),
+    public static final char ICON_ANGLE_RIGHT = '\uf105';
 
     /**
      * angle-up
@@ -2411,7 +2411,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_ANGLE_UP('\uf106'),
+    public static final char ICON_ANGLE_UP = '\uf106';
 
     /**
      * angle-down
@@ -2421,7 +2421,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_ANGLE_DOWN('\uf107'),
+    public static final char ICON_ANGLE_DOWN = '\uf107';
 
     /**
      * desktop
@@ -2431,7 +2431,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_DESKTOP('\uf108'),
+    public static final char ICON_DESKTOP = '\uf108';
 
     /**
      * laptop
@@ -2441,7 +2441,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_LAPTOP('\uf109'),
+    public static final char ICON_LAPTOP = '\uf109';
 
     /**
      * tablet
@@ -2451,7 +2451,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_TABLET('\uf10a'),
+    public static final char ICON_TABLET = '\uf10a';
 
     /**
      * mobile-phone
@@ -2461,7 +2461,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_MOBILE_PHONE('\uf10b'),
+    public static final char ICON_MOBILE_PHONE = '\uf10b';
 
     /**
      * circle-blank
@@ -2471,7 +2471,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_CIRCLE_BLANK('\uf10c'),
+    public static final char ICON_CIRCLE_BLANK = '\uf10c';
 
     /**
      * quote-left
@@ -2481,7 +2481,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_QUOTE_LEFT('\uf10d'),
+    public static final char ICON_QUOTE_LEFT = '\uf10d';
 
     /**
      * quote-right
@@ -2491,7 +2491,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_QUOTE_RIGHT('\uf10e'),
+    public static final char ICON_QUOTE_RIGHT = '\uf10e';
 
     /**
      * spinner
@@ -2501,7 +2501,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_SPINNER('\uf110'),
+    public static final char ICON_SPINNER = '\uf110';
 
     /**
      * circle
@@ -2511,7 +2511,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_CIRCLE('\uf111'),
+    public static final char ICON_CIRCLE = '\uf111';
 
     /**
      * reply
@@ -2525,7 +2525,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_REPLY('\uf112'),
+    public static final char ICON_REPLY = '\uf112';
 
     /**
      * github-alt
@@ -2535,7 +2535,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_GITHUB_ALT('\uf113'),
+    public static final char ICON_GITHUB_ALT = '\uf113';
 
     /**
      * folder-close-alt
@@ -2545,7 +2545,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_FOLDER_CLOSE_ALT('\uf114'),
+    public static final char ICON_FOLDER_CLOSE_ALT = '\uf114';
 
     /**
      * folder-open-alt
@@ -2555,7 +2555,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.0
      */
-    ICON_FOLDER_OPEN_ALT('\uf115'),
+    public static final char ICON_FOLDER_OPEN_ALT = '\uf115';
 
     /**
      * expand-alt
@@ -2565,7 +2565,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_EXPAND_ALT('\uf116'),
+    public static final char ICON_EXPAND_ALT = '\uf116';
 
     /**
      * collapse-alt
@@ -2575,7 +2575,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_COLLAPSE_ALT('\uf117'),
+    public static final char ICON_COLLAPSE_ALT = '\uf117';
 
     /**
      * smile
@@ -2585,7 +2585,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_SMILE('\uf118'),
+    public static final char ICON_SMILE = '\uf118';
 
     /**
      * frown
@@ -2595,7 +2595,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_FROWN('\uf119'),
+    public static final char ICON_FROWN = '\uf119';
 
     /**
      * meh
@@ -2605,7 +2605,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MEH('\uf11a'),
+    public static final char ICON_MEH = '\uf11a';
 
     /**
      * gamepad
@@ -2615,7 +2615,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_GAMEPAD('\uf11b'),
+    public static final char ICON_GAMEPAD = '\uf11b';
 
     /**
      * keyboard
@@ -2625,7 +2625,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_KEYBOARD('\uf11c'),
+    public static final char ICON_KEYBOARD = '\uf11c';
 
     /**
      * flag-alt
@@ -2635,7 +2635,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_FLAG_ALT('\uf11d'),
+    public static final char ICON_FLAG_ALT = '\uf11d';
 
     /**
      * flag-checkered
@@ -2645,7 +2645,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_FLAG_CHECKERED('\uf11e'),
+    public static final char ICON_FLAG_CHECKERED = '\uf11e';
 
     /**
      * terminal
@@ -2655,7 +2655,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_TERMINAL('\uf120'),
+    public static final char ICON_TERMINAL = '\uf120';
 
     /**
      * code
@@ -2665,7 +2665,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CODE('\uf121'),
+    public static final char ICON_CODE = '\uf121';
 
     /**
      * reply-all
@@ -2675,7 +2675,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_REPLY_ALL('\uf122'),
+    public static final char ICON_REPLY_ALL = '\uf122';
 
     /**
      * mail-reply-all
@@ -2685,7 +2685,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MAIL_REPLY_ALL('\uf122'),
+    public static final char ICON_MAIL_REPLY_ALL = '\uf122';
 
     /**
      * star-half-empty
@@ -2699,7 +2699,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_STAR_HALF_EMPTY('\uf123'),
+    public static final char ICON_STAR_HALF_EMPTY = '\uf123';
 
     /**
      * location-arrow
@@ -2709,7 +2709,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_LOCATION_ARROW('\uf124'),
+    public static final char ICON_LOCATION_ARROW = '\uf124';
 
     /**
      * crop
@@ -2719,7 +2719,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CROP('\uf125'),
+    public static final char ICON_CROP = '\uf125';
 
     /**
      * code-fork
@@ -2729,7 +2729,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CODE_FORK('\uf126'),
+    public static final char ICON_CODE_FORK = '\uf126';
 
     /**
      * unlink
@@ -2739,7 +2739,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_UNLINK('\uf127'),
+    public static final char ICON_UNLINK = '\uf127';
 
     /**
      * question
@@ -2749,7 +2749,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_QUESTION('\uf128'),
+    public static final char ICON_QUESTION = '\uf128';
 
     /**
      * info
@@ -2759,7 +2759,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_INFO('\uf129'),
+    public static final char ICON_INFO = '\uf129';
 
     /**
      * exclamation
@@ -2769,7 +2769,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_EXCLAMATION('\uf12a'),
+    public static final char ICON_EXCLAMATION = '\uf12a';
 
     /**
      * superscript
@@ -2779,7 +2779,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_SUPERSCRIPT('\uf12b'),
+    public static final char ICON_SUPERSCRIPT = '\uf12b';
 
     /**
      * subscript
@@ -2789,7 +2789,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_SUBSCRIPT('\uf12c'),
+    public static final char ICON_SUBSCRIPT = '\uf12c';
 
     /**
      * eraser
@@ -2800,7 +2800,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_ERASER('\uf12d'),
+    public static final char ICON_ERASER = '\uf12d';
 
     /**
      * puzzle-piece
@@ -2810,7 +2810,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_PUZZLE_PIECE('\uf12e'),
+    public static final char ICON_PUZZLE_PIECE = '\uf12e';
 
     /**
      * microphone
@@ -2820,7 +2820,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MICROPHONE('\uf130'),
+    public static final char ICON_MICROPHONE = '\uf130';
 
     /**
      * microphone-off
@@ -2830,7 +2830,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MICROPHONE_OFF('\uf131'),
+    public static final char ICON_MICROPHONE_OFF = '\uf131';
 
     /**
      * shield
@@ -2840,7 +2840,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_SHIELD('\uf132'),
+    public static final char ICON_SHIELD = '\uf132';
 
     /**
      * calendar-empty
@@ -2850,7 +2850,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CALENDAR_EMPTY('\uf133'),
+    public static final char ICON_CALENDAR_EMPTY = '\uf133';
 
     /**
      * fire-extinguisher
@@ -2860,7 +2860,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_FIRE_EXTINGUISHER('\uf134'),
+    public static final char ICON_FIRE_EXTINGUISHER = '\uf134';
 
     /**
      * rocket
@@ -2870,7 +2870,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_ROCKET('\uf135'),
+    public static final char ICON_ROCKET = '\uf135';
 
     /**
      * MaxCDN
@@ -2880,7 +2880,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MAXCDN('\uf136'),
+    public static final char ICON_MAXCDN = '\uf136';
 
     /**
      * Chevron Sign Left
@@ -2890,7 +2890,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHEVRON_SIGN_LEFT('\uf137'),
+    public static final char ICON_CHEVRON_SIGN_LEFT = '\uf137';
 
     /**
      * Chevron Sign Right
@@ -2900,7 +2900,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHEVRON_SIGN_RIGHT('\uf138'),
+    public static final char ICON_CHEVRON_SIGN_RIGHT = '\uf138';
 
     /**
      * Chevron Sign Up
@@ -2910,7 +2910,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHEVRON_SIGN_UP('\uf139'),
+    public static final char ICON_CHEVRON_SIGN_UP = '\uf139';
 
     /**
      * Chevron Sign Down
@@ -2920,7 +2920,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHEVRON_SIGN_DOWN('\uf13a'),
+    public static final char ICON_CHEVRON_SIGN_DOWN = '\uf13a';
 
     /**
      * HTML 5 Logo
@@ -2930,7 +2930,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_HTML5('\uf13b'),
+    public static final char ICON_HTML5 = '\uf13b';
 
     /**
      * CSS 3 Logo
@@ -2940,7 +2940,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CSS3('\uf13c'),
+    public static final char ICON_CSS3 = '\uf13c';
 
     /**
      * Anchor
@@ -2950,7 +2950,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_ANCHOR('\uf13d'),
+    public static final char ICON_ANCHOR = '\uf13d';
 
     /**
      * Unlock Alt
@@ -2960,7 +2960,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_UNLOCK_ALT('\uf13e'),
+    public static final char ICON_UNLOCK_ALT = '\uf13e';
 
     /**
      * Bullseye
@@ -2970,7 +2970,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_BULLSEYE('\uf140'),
+    public static final char ICON_BULLSEYE = '\uf140';
 
     /**
      * Horizontal Ellipsis
@@ -2980,7 +2980,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_ELLIPSIS_HORIZONTAL('\uf141'),
+    public static final char ICON_ELLIPSIS_HORIZONTAL = '\uf141';
 
     /**
      * Vertical Ellipsis
@@ -2990,7 +2990,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_ELLIPSIS_VERTICAL('\uf142'),
+    public static final char ICON_ELLIPSIS_VERTICAL = '\uf142';
 
     /**
      * RSS Sign
@@ -3000,7 +3000,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_RSS_SIGN('\uf143'),
+    public static final char ICON_RSS_SIGN = '\uf143';
 
     /**
      * Play Sign
@@ -3010,7 +3010,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_PLAY_SIGN('\uf144'),
+    public static final char ICON_PLAY_SIGN = '\uf144';
 
     /**
      * Ticket
@@ -3020,7 +3020,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_TICKET('\uf145'),
+    public static final char ICON_TICKET = '\uf145';
 
     /**
      * Minus Sign Alt
@@ -3030,7 +3030,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_MINUS_SIGN_ALT('\uf146'),
+    public static final char ICON_MINUS_SIGN_ALT = '\uf146';
 
     /**
      * Check Minus
@@ -3040,7 +3040,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHECK_MINUS('\uf147'),
+    public static final char ICON_CHECK_MINUS = '\uf147';
 
     /**
      * Level Up
@@ -3050,7 +3050,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_LEVEL_UP('\uf148'),
+    public static final char ICON_LEVEL_UP = '\uf148';
 
     /**
      * Level Down
@@ -3060,7 +3060,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_LEVEL_DOWN('\uf149'),
+    public static final char ICON_LEVEL_DOWN = '\uf149';
 
     /**
      * Check Sign
@@ -3070,7 +3070,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_CHECK_SIGN('\uf14a'),
+    public static final char ICON_CHECK_SIGN = '\uf14a';
 
     /**
      * Edit Sign
@@ -3080,7 +3080,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_EDIT_SIGN('\uf14b'),
+    public static final char ICON_EDIT_SIGN = '\uf14b';
 
     /**
      * Exteral Link Sign
@@ -3090,7 +3090,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_EXTERNAL_LINK_SIGN('\uf14c'),
+    public static final char ICON_EXTERNAL_LINK_SIGN = '\uf14c';
 
     /**
      * Share Sign
@@ -3100,7 +3100,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.1
      */
-    ICON_SHARE_SIGN('\uf14d'),
+    public static final char ICON_SHARE_SIGN = '\uf14d';
 
     /**
      * Compass
@@ -3110,7 +3110,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_COMPASS('\uf14e'),
+    public static final char ICON_COMPASS = '\uf14e';
 
     /**
      * Collapse
@@ -3120,7 +3120,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_COLLAPSE('\uf150'),
+    public static final char ICON_COLLAPSE = '\uf150';
 
     /**
      * Collapse Top
@@ -3130,7 +3130,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_COLLAPSE_TOP('\uf151'),
+    public static final char ICON_COLLAPSE_TOP = '\uf151';
 
     /**
      * Expand
@@ -3140,7 +3140,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_EXPAND('\uf152'),
+    public static final char ICON_EXPAND = '\uf152';
 
     /**
      * Euro (EUR)
@@ -3154,7 +3154,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_EUR('\uf153'),
+    public static final char ICON_EUR = '\uf153';
 
     /**
      * GBP
@@ -3164,7 +3164,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_GBP('\uf154'),
+    public static final char ICON_GBP = '\uf154';
 
     /**
      * US Dollar
@@ -3178,7 +3178,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_USD('\uf155'),
+    public static final char ICON_USD = '\uf155';
 
     /**
      * Indian Rupee (INR)
@@ -3192,7 +3192,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_INR('\uf156'),
+    public static final char ICON_INR = '\uf156';
 
     /**
      * Japanese Yen (JPY)
@@ -3206,7 +3206,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_JPY('\uf157'),
+    public static final char ICON_JPY = '\uf157';
 
     /**
      * Renminbi (CNY)
@@ -3220,7 +3220,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_CNY('\uf158'),
+    public static final char ICON_CNY = '\uf158';
 
     /**
      * Korean Won (KRW)
@@ -3234,7 +3234,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_KRW('\uf159'),
+    public static final char ICON_KRW = '\uf159';
 
     /**
      * Bitcoin (BTC)
@@ -3249,7 +3249,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_BTC('\uf15a'),
+    public static final char ICON_BTC = '\uf15a';
 
     /**
      * File
@@ -3259,7 +3259,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_FILE('\uf15b'),
+    public static final char ICON_FILE = '\uf15b';
 
     /**
      * File Text
@@ -3269,7 +3269,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_FILE_TEXT('\uf15c'),
+    public static final char ICON_FILE_TEXT = '\uf15c';
 
     /**
      * Sort By Alphabet
@@ -3279,7 +3279,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ALPHABET('\uf15d'),
+    public static final char ICON_SORT_BY_ALPHABET = '\uf15d';
 
     /**
      * Sort By Alphabet Alt
@@ -3289,7 +3289,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ALPHABET_ALT('\uf15e'),
+    public static final char ICON_SORT_BY_ALPHABET_ALT = '\uf15e';
 
     /**
      * Sort By Attributes
@@ -3299,7 +3299,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ATTRIBUTES('\uf160'),
+    public static final char ICON_SORT_BY_ATTRIBUTES = '\uf160';
 
     /**
      * Sort By Attributes Alt
@@ -3309,7 +3309,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ATTRIBUTES_ALT('\uf161'),
+    public static final char ICON_SORT_BY_ATTRIBUTES_ALT = '\uf161';
 
     /**
      * Sort By Order
@@ -3319,7 +3319,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ORDER('\uf162'),
+    public static final char ICON_SORT_BY_ORDER = '\uf162';
 
     /**
      * Sort By Order Alt
@@ -3329,7 +3329,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SORT_BY_ORDER_ALT('\uf163'),
+    public static final char ICON_SORT_BY_ORDER_ALT = '\uf163';
 
     /**
      * thumbs-up
@@ -3339,7 +3339,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_THUMBS_UP('\uf164'),
+    public static final char ICON_THUMBS_UP = '\uf164';
 
     /**
      * thumbs-down
@@ -3349,7 +3349,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_THUMBS_DOWN('\uf165'),
+    public static final char ICON_THUMBS_DOWN = '\uf165';
 
     /**
      * YouTube Sign
@@ -3359,7 +3359,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_YOUTUBE_SIGN('\uf166'),
+    public static final char ICON_YOUTUBE_SIGN = '\uf166';
 
     /**
      * YouTube
@@ -3369,7 +3369,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_YOUTUBE('\uf167'),
+    public static final char ICON_YOUTUBE = '\uf167';
 
     /**
      * Xing
@@ -3379,7 +3379,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_XING('\uf168'),
+    public static final char ICON_XING = '\uf168';
 
     /**
      * Xing Sign
@@ -3389,7 +3389,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_XING_SIGN('\uf169'),
+    public static final char ICON_XING_SIGN = '\uf169';
 
     /**
      * YouTube Play
@@ -3400,7 +3400,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_YOUTUBE_PLAY('\uf16a'),
+    public static final char ICON_YOUTUBE_PLAY = '\uf16a';
 
     /**
      * Dropbox
@@ -3410,7 +3410,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_DROPBOX('\uf16b'),
+    public static final char ICON_DROPBOX = '\uf16b';
 
     /**
      * Stack Exchange
@@ -3420,7 +3420,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_STACKEXCHANGE('\uf16c'),
+    public static final char ICON_STACKEXCHANGE = '\uf16c';
 
     /**
      * Instagram
@@ -3430,7 +3430,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_INSTAGRAM('\uf16d'),
+    public static final char ICON_INSTAGRAM = '\uf16d';
 
     /**
      * Flickr
@@ -3440,7 +3440,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_FLICKR('\uf16e'),
+    public static final char ICON_FLICKR = '\uf16e';
 
     /**
      * App.net
@@ -3450,7 +3450,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_ADN('\uf170'),
+    public static final char ICON_ADN = '\uf170';
 
     /**
      * Bitbucket
@@ -3460,7 +3460,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_BITBUCKET('\uf171'),
+    public static final char ICON_BITBUCKET = '\uf171';
 
     /**
      * Bitbucket Sign
@@ -3470,7 +3470,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_BITBUCKET_SIGN('\uf172'),
+    public static final char ICON_BITBUCKET_SIGN = '\uf172';
 
     /**
      * Tumblr
@@ -3480,7 +3480,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_TUMBLR('\uf173'),
+    public static final char ICON_TUMBLR = '\uf173';
 
     /**
      * Tumblr Sign
@@ -3490,7 +3490,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_TUMBLR_SIGN('\uf174'),
+    public static final char ICON_TUMBLR_SIGN = '\uf174';
 
     /**
      * Long Arrow Down
@@ -3500,7 +3500,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_LONG_ARROW_DOWN('\uf175'),
+    public static final char ICON_LONG_ARROW_DOWN = '\uf175';
 
     /**
      * Long Arrow Up
@@ -3510,7 +3510,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_LONG_ARROW_UP('\uf176'),
+    public static final char ICON_LONG_ARROW_UP = '\uf176';
 
     /**
      * Long Arrow Left
@@ -3520,7 +3520,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_LONG_ARROW_LEFT('\uf177'),
+    public static final char ICON_LONG_ARROW_LEFT = '\uf177';
 
     /**
      * Long Arrow Right
@@ -3530,7 +3530,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_LONG_ARROW_RIGHT('\uf178'),
+    public static final char ICON_LONG_ARROW_RIGHT = '\uf178';
 
     /**
      * Apple
@@ -3540,7 +3540,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_APPLE('\uf179'),
+    public static final char ICON_APPLE = '\uf179';
 
     /**
      * Windows
@@ -3550,7 +3550,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_WINDOWS('\uf17a'),
+    public static final char ICON_WINDOWS = '\uf17a';
 
     /**
      * Android
@@ -3560,7 +3560,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_ANDROID('\uf17b'),
+    public static final char ICON_ANDROID = '\uf17b';
 
     /**
      * Linux
@@ -3570,7 +3570,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_LINUX('\uf17c'),
+    public static final char ICON_LINUX = '\uf17c';
 
     /**
      * Dribbble
@@ -3580,7 +3580,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_DRIBBBLE('\uf17d'),
+    public static final char ICON_DRIBBBLE = '\uf17d';
 
     /**
      * Skype
@@ -3590,7 +3590,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SKYPE('\uf17e'),
+    public static final char ICON_SKYPE = '\uf17e';
 
     /**
      * Foursquare
@@ -3600,7 +3600,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_FOURSQUARE('\uf180'),
+    public static final char ICON_FOURSQUARE = '\uf180';
 
     /**
      * Trello
@@ -3610,7 +3610,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_TRELLO('\uf181'),
+    public static final char ICON_TRELLO = '\uf181';
 
     /**
      * Female
@@ -3620,7 +3620,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_FEMALE('\uf182'),
+    public static final char ICON_FEMALE = '\uf182';
 
     /**
      * Male
@@ -3630,7 +3630,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_MALE('\uf183'),
+    public static final char ICON_MALE = '\uf183';
 
     /**
      * Gittip
@@ -3640,7 +3640,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_GITTIP('\uf184'),
+    public static final char ICON_GITTIP = '\uf184';
 
     /**
      * Sun
@@ -3650,7 +3650,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_SUN('\uf185'),
+    public static final char ICON_SUN = '\uf185';
 
     /**
      * Moon
@@ -3660,7 +3660,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_MOON('\uf186'),
+    public static final char ICON_MOON = '\uf186';
 
     /**
      * Archive
@@ -3670,7 +3670,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_ARCHIVE('\uf187'),
+    public static final char ICON_ARCHIVE = '\uf187';
 
     /**
      * Bug
@@ -3680,7 +3680,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_BUG('\uf188'),
+    public static final char ICON_BUG = '\uf188';
 
     /**
      * VK
@@ -3690,7 +3690,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_VK('\uf189'),
+    public static final char ICON_VK = '\uf189';
 
     /**
      * Weibo
@@ -3700,7 +3700,7 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_WEIBO('\uf18a'),
+    public static final char ICON_WEIBO = '\uf18a';
 
     /**
      * Renren
@@ -3710,15 +3710,12 @@ public enum FontAwesomeIcon {
      * </ul>
      * @since 3.2
      */
-    ICON_RENREN('\uf18b');
+    public static final char ICON_RENREN = '\uf18b';
 
 
-    private final char unicode;
-    private FontAwesomeIcon(final char unicode) {
-        this.unicode = unicode;
-    }
-    public char getUnicode() {
-        return this.unicode;
+    // Private c-tor to prevent construction of this helper class.
+    private FontAwesome() {
+        throw new IllegalStateException("Helper class is not ment to be constructed.");
     }
 
 }

@@ -108,6 +108,12 @@
                                     <Content-Type>application/x-font-otf</Content-Type>
                                 </manifestEntries>
                             </manifestSection>
+                            <manifestSection>
+                                <name>/com/cathive/fonts/fontawesome/FontAwesome.ttf</name>
+                                <manifestEntries>
+                                    <Content-Type>application/x-font-ttf</Content-Type>
+                                </manifestEntries>
+                            </manifestSection>
                         </manifestSections>
                     </archive>
                 </configuration>

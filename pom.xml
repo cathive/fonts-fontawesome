@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+ Copyright (c) 2013 The Cat Hive Developers
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE. 
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cathive.fonts</groupId>
+    <artifactId>fonts-fontawesome</artifactId>
+    <packaging>bundle</packaging>
+    <version>3.2.1.0-SNAPSHOT</version>
+    <name>FontAwesome fonts for Java</name>
+    <description>Easily integrate FontAwesome into your Java / JavaFX applications</description>
+    <url>http://fontawesome.io/</url>
+    <inceptionYear>2013</inceptionYear>
+
+    <parent>
+        <groupId>com.cathive</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>2</version>
+    </parent>
+
+    <properties />
+
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>http://opensource.org/licenses/mit-license.html</url>
+            <distribution>repo</distribution>
+            <comments>The AwesomeFont fonts (.otf file) are distributed under the SIL Open Font License (OFL) 1.1.</comments>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <system>Github</system>
+        <url>https://github.com/cathive/${project.artifactId}/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <id>headcr4sh</id>
+            <name>Benjamin P. Jung</name>
+            <email>headcr4sh@gmail.com</email>
+            <url>http://profiles.google.com/headcr4sh</url>
+            <organization>The Cat Hive Developers</organization>
+            <organizationUrl>http://www.cathive.com/</organizationUrl>
+            <timezone>Europe/Berlin</timezone>
+            <properties />
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Dave Gandy</name>
+            <roles>
+                <role>Font Designer</role>
+            </roles>
+        </contributor>
+    </contributors>
+
+    <scm>
+        <connection>scm:git:https://github.com/cathive/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:git@github.com:cathive/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/cathive/${project.artifactId}/</url>
+      <tag>HEAD</tag>
+  </scm>
+
+    <ciManagement />
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestSections>
+                            <manifestSection>
+                                <name>/com/cathive/fonts/fontawesome/FontAwesome.otf</name>
+                                <manifestEntries>
+                                    <Content-Type>application/x-font-otf</Content-Type>
+                                </manifestEntries>
+                            </manifestSection>
+                        </manifestSections>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

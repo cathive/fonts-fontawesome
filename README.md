@@ -1,3 +1,5 @@
+*Font Awesome by Dave Gandy: http://fontawesome.io/*
+
 Font Awesome gives you scalable vector icons that can instantly be customized —
 size, color, drop shadow, and anything that can be done with the power of CSS.
 
@@ -19,7 +21,7 @@ in your Maven based projects just add the following lines to your
 ```
 
 You can directly use the FontAwesome icons in your JavaFX application.
-Use instances of ```com.cathive.fonts.FontAwesomeIconView``` - either construct
+Use instances of `com.cathive.fonts.FontAwesomeIconView` — either construct
 them programatically or embed them into your FXML sources:
 
 ```xml

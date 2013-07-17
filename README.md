@@ -15,8 +15,8 @@ in your Maven based projects just add the following lines to your
 ```xml
 <dependency>
   <groupId>com.cathive.fonts</groupId>
-  <artifactId>fonts-awesome</artifactId>
-  <version>${fonts-awesome.version}</version>
+  <artifactId>fonts-fontawesome</artifactId>
+  <version>${fonts-fontawesome.version}</version>
 </dependency>
 ```
 

@@ -22,7 +22,8 @@
  THE SOFTWARE. 
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cathive.fonts</groupId>
@@ -40,20 +41,21 @@
         <version>2</version>
     </parent>
 
-    <properties />
+    <properties/>
 
     <licenses>
         <license>
             <name>The MIT License</name>
             <url>http://opensource.org/licenses/mit-license.html</url>
             <distribution>repo</distribution>
-            <comments>The AwesomeFont fonts (.otf file) are distributed under the SIL Open Font License (OFL) 1.1.</comments>
+            <comments>The AwesomeFont fonts (.otf file) are distributed under the SIL Open Font License (OFL) 1.1.
+            </comments>
         </license>
     </licenses>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/cathive/${project.artifactId}/issues</url>
+        <url>https://github.com/cathive/fonts-fontawesome/issues</url>
     </issueManagement>
 
     <developers>
@@ -65,7 +67,7 @@
             <organization>The Cat Hive Developers</organization>
             <organizationUrl>http://www.cathive.com/</organizationUrl>
             <timezone>Europe/Berlin</timezone>
-            <properties />
+            <properties/>
             <roles>
                 <role>Developer</role>
             </roles>
@@ -82,13 +84,16 @@
     </contributors>
 
     <scm>
-        <connection>scm:git:https://github.com/cathive/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:git@github.com:cathive/${project.artifactId}.git</developerConnection>
-        <url>https://github.com/cathive/${project.artifactId}/</url>
-      <tag>HEAD</tag>
-  </scm>
+        <connection>scm:git:https://github.com/cathive/fonts-fontawesome.git</connection>
+        <developerConnection>scm:git:git@github.com:cathive/fonts-fontawesome.git</developerConnection>
+        <url>https://github.com/cathive/fonts-fontawesome/</url>
+        <tag>master</tag>
+    </scm>
 
-    <ciManagement />
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/cathive/fonts-fontawesome</url>
+    </ciManagement>
 
     <build>
         <plugins>

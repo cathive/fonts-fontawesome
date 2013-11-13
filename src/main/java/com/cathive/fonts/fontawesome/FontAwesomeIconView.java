@@ -50,9 +50,9 @@ public class FontAwesomeIconView extends Label {
     }
 
 
-    public FontAwesomeIconView(final char unicode) {
+    public FontAwesomeIconView(final FontAwesomeIcon icon) {
         this();
-        setText(String.valueOf(unicode));
+        setIcon(icon);
     }
 
     public void setIcon(final FontAwesomeIcon icon) {
